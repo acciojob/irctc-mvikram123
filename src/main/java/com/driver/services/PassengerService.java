@@ -17,7 +17,11 @@ public class PassengerService {
        // Passenger updatedPassenger = passengerRepository.save(passenger);
 
         passengerRepository.save(passenger);
+
         //return updatedPassenger.getPassengerId();
+
+
+
         return  passenger.getPassengerId();
     }
 
